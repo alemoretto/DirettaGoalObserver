@@ -20,11 +20,11 @@ public class DatiPartitaDisplay implements Observer, DisplayElement {
 
 	@Override
 	public void display() {
-		System.out.println("Siamo al minuto " + minutoCorrente + " e il risultato è di " + risultatoAggiornato);
+		System.out.println("Siamo al " + minutoCorrente + "' e il risultato è di " + risultatoAggiornato);
 		if (marcatori.size() > 0) {
 			String m = "Goal: ";
 			for (int i = 0; i < marcatori.size(); i++) {
-				m += marcatori.get(i) + "(" + minutoGoals.get(i) + ") ";
+				m += marcatori.get(i) + "(" + minutoGoals.get(i) + "') ";
 			}
 			System.out.println(m);
 		}

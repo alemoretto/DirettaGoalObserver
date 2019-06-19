@@ -15,7 +15,7 @@ public class RisultatoCorrenteDisplay implements Observer, DisplayElement {
 
 	@Override
 	public void display() {
-		System.out.println("Goooal !!! " + minutoCorrente + " è di " + risultatoAggiornato);
+		System.out.println("Goooal !!!  Al " + minutoCorrente + "' il risultato è di " + risultatoAggiornato);
 	}
 	
 	@Override
